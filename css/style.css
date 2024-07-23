@@ -1,1 +1,652 @@
-body {}
+body {
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 600;
+    font-family: "Work Sans", Arial, sans-serif;
+    color: #434343;
+    background-color: #fff;
+}
+
+/* common styles */
+
+a {
+    text-decoration: none;
+}
+
+img {}
+
+ul {
+    list-style: none;
+}
+
+/* buttons */
+
+.btn {
+    font-size: 16px;
+    line-height: 1;
+    color: #fff;
+    border: none;
+    border-radius: 26px;
+}
+
+.btn-main {
+    background-color: #00A6FB;
+}
+
+.btn-dark {
+    background-color: #023E8A;
+}
+
+.btn-link {
+    color: #000;
+    background-color: transparent;
+    border-radius: 0;
+}
+
+/* header */
+
+.page-header {}
+
+.header-top-block {
+    background-color: #023E8A;
+    border-radius: 10px;
+
+}
+
+.page-nav {}
+
+.nav-list {}
+
+.nav-item {}
+
+.nav-link,
+.header-text {
+    font-size: 14px;
+    line-height: 1;
+    color: #fff;
+}
+
+.text-label {
+    font-family: "Epilogue", Arial, sans-serif;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #00A6FB;
+    border-radius: 30px;
+}
+
+.header-link {
+    font-size: 14px;
+    line-height: 13px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.header-bottom-block {}
+
+.logo {}
+
+.logo-img {}
+
+.page-nav.is-dropdown .nav-link {
+    font-size: 14px;
+    line-height: 1;
+    color: #023E8A;
+}
+
+.page-nav.is-dropdown .nav-link.is-active {
+    color: #FF922E;
+}
+
+.link-button {}
+
+.is-card {}
+
+.is-profile {}
+
+.is-like {}
+
+.page-content {}
+
+/* hero section */
+
+.hero-section {
+    background-color: #00A6FB;
+    border-radius: 20px;
+}
+
+.hero-subheading {
+    font-size: 14px;
+    line-height: 1;
+    color: #000;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+.main-heading {
+    font-size: 50px;
+    line-height: 65px;
+    color: #000;
+}
+
+.hero-text {
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+
+/* about section */
+
+.about-section {}
+
+.about-illustration {}
+
+.about-image {}
+
+.about-heading {
+    color: #00A6FB;
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: 0.2em;
+}
+
+.about-subheading {
+    color: #081F48;
+    font-size: 40px;
+    line-height: 43px;
+}
+
+.common-text {
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    color: #3A3A3A;
+}
+
+.bullet-list {}
+
+.bullet-item {
+    font-size: 18px;
+    line-height: 26px;
+    color: #000;
+}
+
+.main-btn {}
+
+/* companies section */
+
+.companies-section {}
+
+.companies-list {}
+
+.companies-item {}
+
+.company-link {}
+
+.company-img {}
+
+.companies-text {
+    font-size: 16px;
+    line-height: 1;
+    font-weight: 500;
+    color: #2A9BED;
+}
+
+/* illustration sections */
+
+.illustrations-section {}
+
+.illustration {}
+
+/* popular categories */
+
+.popular-categories {}
+
+.secondary-heading {
+    font-size: 40px;
+    line-height: 43px;
+    color: #202020;
+}
+
+.tabs-list {}
+
+.tab-item {}
+
+.tab-button {
+    font-size: 14px;
+    line-height: 1;
+    border: 1px solid #BDBDBD;
+    border-radius: 60px;
+    background-color: transparent;
+}
+
+.tab-button.is-active {
+    background-color: #2A9BED;
+    color: #fff;
+}
+
+/* catalog list */
+
+.catalog-list {}
+
+.catalog-list-item {}
+
+.catalog-card {
+    color: #212121;
+}
+
+.catalog-card-link {
+    color: #212121;
+}
+
+.catalog-card-label {
+    font-size: 14px;
+    line-height: 1;
+    background-color: #2A9BED;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.catalog-card-img {}
+
+.catalog-card-title {
+    font-size: 20px;
+    line-height: 33px;
+}
+
+.catalog-price {
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.catalog-price.is-old {
+    color: #8F8F8F;
+}
+
+/* best deals section */
+
+.best-deals {}
+
+/* timer */
+
+.timer-list {}
+
+.timer-item {
+    background-color: #fff;
+    border-radius: 10px;
+    color: #000;
+}
+
+.timer-numeric {
+    font-size: 50px;
+    line-height: 65px;
+}
+
+.timer-desc {
+    font-size: 14px;
+    line-height: 1;
+}
+
+/* slider */
+
+.slider-button {}
+
+.slider-list {}
+
+.slider-item {}
+
+.best-seller {}
+
+
+/* aside banner */
+
+.aside-banner {
+    background-color: #84D8F0;
+    border-radius: 20px;
+}
+
+.aside-banner-text {
+    color: #00A6FB;
+    font-size: 163px;
+    line-height: 1;
+    font-weight: 800;
+}
+
+.small-catalog {}
+
+.small-catalog-item {}
+
+/* banner */
+
+.banner {
+    background-color: red;
+    border-radius: 20px
+}
+
+.banner-text {
+    font-size: 50px;
+    line-height: 65px;
+    color: #fff;
+}
+
+/* advantages */
+
+.advantages {}
+
+.advantages-list {}
+
+.advantages-item {}
+
+.advantage-heading {
+    font-size: 20px;
+    line-height: 33px;
+    color: #1E201D;
+}
+
+.adavantages-text {
+    font-size: 15px;
+    line-height: 26px;
+    color: #444444;
+}
+
+/* news */
+
+.news-block {}
+
+.news-list {}
+
+.news-item {}
+
+.news-card {
+    color: #000000;
+    border: 1px solid #D4D4D4;
+    border-radius: 20px;
+}
+
+.news-img {}
+
+.news-posttime {
+    font-size: 15px;
+    line-height: 26px;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+.news-heading {
+    font-size: 20px;
+    line-height: 33px;
+}
+
+/* news big card */
+
+.news-card.is-big {
+    color: #fff;
+}
+
+.news-card.is-big .news-img {
+    
+}
+
+.news-card.is-big .news-posttime {
+    font-size: 16px;
+}
+
+.news-card.is-big .news-heading {
+    font-size: 26px;
+    line-height: 36px;
+}
+
+
+/* awards */
+
+.awards {}
+
+.awards-list {}
+
+.award-item {}
+
+.award-link {}
+
+.award-img {}
+
+/* reviews */
+
+.reviews {
+    background-color: #F0F2F5;
+    border-radius: 20px;
+}
+
+.review-subheading {
+    color: #00A6FB;
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+.reviews-list {}
+
+.review-item {}
+
+.review-avatar {}
+
+.reviewer-name {
+    color: #000000;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.reviewer-position {
+    color: #000000;
+    font-size: 14px;
+    line-height: 1;
+}
+
+.review-quote {
+    color: #5C5C5C;
+    font-size: 15px;
+    line-height: 26px;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+
+/* contacts */
+
+.contacts {
+    background-color: #081F48;
+    border-start-end-radius: 20px;
+    border-start-start-radius: 20px;
+    color: #fff;
+}
+
+.contacts-subheading {
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.contacts-heading {
+    font-size: 40px;
+    line-height: 43px;
+}
+
+.contacts-tel {
+    color: #fff;
+}
+
+.contacts-list {}
+
+.contacts-list-term {
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.contacts-list-desc {
+    font-size: 16px;
+    line-height: 1;
+    font-weight: 500;
+}
+
+.contacts-list-desc a {
+    color: #fff;
+}
+
+/* page footer */
+
+.page-footer {
+    background-color: #00A6FB;
+    border-end-end-radius: 20px;
+    border-end-start-radius: 20px;
+    color: #fff;
+}
+
+.footer-text {
+    font-size: 14px;
+    line-height: 1;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+
+/* social list */
+
+.social-list {}
+
+.social-item {}
+
+.social-link {}
+
+.social-img {}
+
+.footer-section {}
+
+.footer-heading {
+    font-size: 20px;
+    line-height: 33px;
+}
+
+.footer-nav-list {}
+
+.footer-nav-link {
+    font-size: 16px;
+    line-height: 1;
+    font-weight: 500;
+    color: #fff;
+}
+
+.footer-copyright {
+    font-size: 16px;
+    line-height: 1;
+}
+
+/* payments */
+
+.payment-list {}
+
+.payment-item {}
+
+.payment-image {}
+
+/* catalog */
+
+.hero-section.is-catalog {
+    background-color: #BFEAFA;
+}
+
+.catalog-main-heading {
+    font-size: 40px;
+    line-height: 43px;
+    color: #023E8A;
+}
+
+/* breadcrumbs */
+
+.breadcrumbs {}
+
+.breadcrumbs-item {}
+
+.breadcrumbs-link {
+    font-size: 14px;
+    line-height: 1;
+    color: #00A6FB;
+}
+
+/* popular categories */
+
+.popular-categories .catalog-card-link {
+    border: 1px solid #000000;
+}
+
+.popular-categories .catalog-card-label {
+    font-size: 12px;
+    line-height: 1;
+    color: #337239;
+    background-color: #DDF0DF;
+    border-radius: 13px;
+}
+
+/* pagination */
+
+.pagination {}
+
+.prev-button {}
+
+.pagination-list {}
+
+.pagination-item {}
+
+.pagination-button {
+    border-radius: 50%;
+    font-size: 14px;
+    line-height: 1;
+    color: #fff;
+    background-color: #023E8A;
+    text-align: center;
+}
+
+.next-button {}
+
+/* catalog article */
+
+.catalog-article {}
+
+.catalog-article-illustration {}
+
+.catalog-article-image {}
+
+.catalog-article-subheading {}
+
+.catalog-article-heading {}
+
+.catalog-article-price {}
+
+.catalog-article-sale {}
+
+.catalog-article-reviews {}
+
+.common-text {}
+
+.catalog-article-button {}
+
+.catalog-article-add {}
+
+.catalog-article-social {}
+
+.catalog-article-list {}
+
+.catalog-article-item {}
+
+.catalog-article-link {}
+
+.catalog-article-payment {}
+
+.catalog-article-advantages {}
+
+.catalog-article-desc {}
+
+.catalog-article-tablist {}
+
+.catalog-article-tabitem {}
+
+.catalog-article-tabbutton {}
+
+.catalog-article-descheading {}
+
+.catalog-article-table {}
+
+.catalog-article-row {}
+
+.catalog-article-cell {}
